@@ -432,13 +432,8 @@
         <div class="row justify-content-center mt-5">
           <div class="col-lg-10">
             <div class="custom-form mt-3">
-              <div id="message"></div>
-              <form
-                method="post"
-                action="php/contact.php"
-                name="contact-form"
-                id="contact-form"
-              >
+              <!-- <div id="message"></div> -->
+              <form name="contact-form" id="formInput">
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group mb-3 mt-2">
@@ -469,6 +464,7 @@
                       <input
                         class="form-control"
                         id="subject"
+                        name="subject"
                         placeholder="Subject"
                         type="text"
                       />
@@ -479,11 +475,11 @@
                   <div class="col-lg-12">
                     <div class="form-group mb-3 mt-2">
                       <textarea
-                        name="comments"
-                        id="comments"
+                        name="message"
+                        id="message"
                         rows="4"
                         class="form-control"
-                        placeholder="Massage"
+                        placeholder="Message"
                       ></textarea>
                     </div>
                   </div>
@@ -575,6 +571,9 @@
     <!-- END FOOTER -->
 
     <!-- javascript -->
+    <script src="firebase.js" type="module"></script>
+    <script src="saveContact.js" type="module"></script>
+    <!--  -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
