@@ -1,0 +1,47 @@
+  //
+// client.scss
+//
+
+
+.bg-client{
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+.client-desc{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+    .owl-theme {
+        .owl-controls {
+            margin-top: 70px;
+            .owl-page {
+                span {
+                    display: block;
+                    width: 30px;
+                    height: 7px;
+                    background-color: $pink;
+                }
+            }
+        }
+    }
+
+.clinet-img {
+    img{
+        width: 120px;
+        box-shadow: 0px 0px 20px 0px rgba(239, 239, 239, 0.6);
+        padding: 12px;
+        background: $white;
+        
+    }
+}
+
+
+// client-logo
+
+.client-logo{
+    background-color: $dark;
+}

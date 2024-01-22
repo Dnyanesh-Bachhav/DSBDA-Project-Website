@@ -1,0 +1,95 @@
+//
+// footer.scss
+//
+
+
+.subscribe-heading{
+    position: relative;
+    z-index: 9;
+}
+
+.subcribe-form {
+    position: relative;
+    z-index: 9;
+    input {
+        padding: 22px 30px;
+        width: 100%;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding-right: 180px;
+        outline: none !important;
+        color: $white;
+        background-color: lighten($dark,7.5%);
+    }
+    button {
+        position: absolute;
+        top: 11px;
+        right: 12px;
+    }
+    form {
+        position: relative;
+        max-width: 700px;
+        margin: 0px auto;
+    }
+
+    
+    input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.4);
+        font-weight: normal;
+    }
+    
+    input:-moz-placeholder {
+        color: rgba(255, 255, 255, 0.4);
+    }
+    
+    input::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.4);
+    }
+    
+    input:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.footer {
+    background: $bg-gradient;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.footer-bg-overlay {
+    background: url(../images/overlay.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link {
+    a {
+        line-height: 40px;
+        transition: all 0.5s;
+        color: rgba($white, 0.5);
+        &:hover {
+            color: $white;
+        }
+    }
+    
+}
+
+.footer-content{
+    position: relative;
+    z-index: 9;
+}

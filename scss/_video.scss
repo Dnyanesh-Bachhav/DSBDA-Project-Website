@@ -1,0 +1,26 @@
+//
+// video.scss
+//
+
+
+.video{
+    background-color: $custom;
+}
+
+.video-title {
+    font-size: 30px;
+    color: $white;
+}
+
+.play-icon-circle {
+    height: 80px;
+    width: 80px;
+    background-color: $white;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 26px;
+    color: $pink;
+    font-size: 40px;
+}

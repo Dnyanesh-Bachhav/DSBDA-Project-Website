@@ -1,0 +1,59 @@
+//
+// services.scss
+//
+
+.services-box{
+  box-shadow: $box-shadow;
+}
+
+
+.services-title{
+    font-size: 24px;
+}
+
+.services-icon{
+  img{
+    width: 45px;
+  }
+}
+
+
+
+
+// ----------- index-2 ----------- //
+
+
+.features-icon {
+  i{
+    font-size: 40px;
+    color: $pink;
+  }
+}
+
+.read-more{
+  color: $white;
+  font-weight: 600;
+  border-bottom: 2px solid $white;
+    padding: 2px 0px;
+
+  &:hover{
+    color: $pink;
+    border-bottom: 2px solid $pink;
+    padding: 2px 0px;
+    transition: all 0.3s;
+  
+  }
+  i {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.features-icon-2{
+    i{
+      font-size: 40px;
+      color: $pink;
+    }  
+}
+

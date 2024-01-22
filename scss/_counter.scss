@@ -1,0 +1,20 @@
+//
+// counter.scss
+//
+
+
+.counter{
+    background: $bg-gradient;
+}
+
+.counter-icon{
+    i{
+        color: $pink;
+        font-size: 40px;
+    }
+}
+.counter-count {
+    font-size: 40px;
+    color: $white;
+}
+

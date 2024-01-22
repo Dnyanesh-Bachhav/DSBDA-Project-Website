@@ -1,0 +1,31 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600');
+
+// Color variables
+$white:                     #ffffff;
+
+$custom:                    #5e02f5;
+$primary:                   #67a8e4;
+$success:                   #4ac18e;
+$info:                      #3bc3e9;
+$warning:                   #ffbb44;
+$danger:                    #ea553d;
+$pink:                      #ff5e92;
+$dark:                      #14151a;
+$muted:                     #7f83a8;
+$light:                     #1f2029;
+
+// Body Background
+$body-bg:                   #f5f5f5;
+$bg-gradient:               linear-gradient(to right, #1f2029, #14151a);
+$box-shadow:               0px 7px 3px 0px #17191f;
+
+// Base font
+$font-size-base:              14px;
+
+$font-family-base:            'Work Sans', sans-serif;
+$font-family-secondary:       'Work Sans', sans-serif;

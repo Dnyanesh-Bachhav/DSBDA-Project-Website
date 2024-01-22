@@ -1,0 +1,29 @@
+//
+// pricing.scss
+//
+
+
+.pricing-box {
+    border: 1px solid #23232d;
+    border-radius: 10px;
+}
+
+.pricing-box-active{
+    box-shadow: $box-shadow;
+}
+
+
+.pricing-plan{
+    color: #828698;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.pricing-price{
+    font-size: 32px;
+}
+
+.pricing-month{
+    color: $pink;
+}
+
