@@ -1,3 +1,5 @@
+![Logo](https://raw.githubusercontent.com/Dnyanesh-Bachhav/DSBDA-Project-Website/main/images/screen/logo.png)
+
 # Excelizer
 
 Welcome to Excelizer - your ultimate tool for effortless event attendance analysis!
