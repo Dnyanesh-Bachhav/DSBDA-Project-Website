@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/Dnyanesh-Bachhav/DSBDA-Project-Website/main/images/screen/logo.png)
+![Logo](https://raw.githubusercontent.com/Dnyanesh-Bachhav/DSBDA-Project-Website/main/images/screen/logo1.png)
 
 # Excelizer
 
